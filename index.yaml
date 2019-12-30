@@ -7,6 +7,6 @@ entries:
     digest: 4daa635cafff4f23c3fafe88e52cf9d6d8641a3ee60f162a47d12a5a6fda93c1
     name: my-app
     urls:
-    - https://mikeshng.github.io/helm-example/my-app-0.1.0.tgz
+    - https://1mikeshng.github.io/helm-example/my-app-0.1.0.tgz
     version: 0.1.0
 generated: 2019-12-30T13:11:49.231920961-05:00
