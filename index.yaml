@@ -1,12 +1,14 @@
 apiVersion: v1
 entries:
-  thisisareallylongnamesoiamgoingtomakeitlong:
-  - apiVersion: v1
-    created: "2020-01-29T10:41:55.477384536-05:00"
+  my-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-25T12:42:25.594315709-04:00"
     description: A Helm chart for Kubernetes
-    digest: 6a62edd9438a417b687550f1c2155eef4a3d858a74a1cf6022991d8d7509e6ca
-    name: thisisareallylongnamesoiamgoingtomakeitlong
+    digest: be71ce387a9562e536085d701db38b291937f81592c3bc3457e0474d75277f6a
+    name: my-app
+    type: application
     urls:
-    - https://mikeshng.github.io/helm-example/thisisareallylongnamesoiamgoingtomakeitlong-0.1.0.tgz
+    - my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-29T10:41:55.476665809-05:00"
+generated: "2020-06-25T12:42:25.593807117-04:00"
