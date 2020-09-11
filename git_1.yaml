@@ -1,0 +1,18 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: HelmRelease
+metadata:
+  name: nginx-ingress
+repo:
+  chartName: nginx-ingress
+  source:
+    git:
+      urls:
+      - https://github.com/mikeshng/helm-example.git
+      branch: gh-pages
+      chartPath: nginx-ingress-1.29.0
+    type: git
+  version: 1.29.0
+spec:
+  defaultBackend:
+    replicaCount: 2
+

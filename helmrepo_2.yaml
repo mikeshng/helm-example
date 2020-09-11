@@ -1,0 +1,16 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: HelmRelease
+metadata:
+  name: nginx-ingress
+repo:
+  chartName: nginx-ingress
+  source:
+    helmRepo:
+      urls:
+      - https://github.com/mikeshng/helm-example/raw/gh-pages/nginx-ingress-1.40.0_modified.tgz
+    type: helmrepo
+  version: 1.40.0
+spec:
+  defaultBackend:
+    replicaCount: 4
+

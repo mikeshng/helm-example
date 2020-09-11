@@ -1,0 +1,6 @@
+nginx-ingress-1.29.0.tgz is the same file as https://kubernetes-charts.storage.googleapis.com/nginx-ingress-1.29.0.tgz
+
+nginx-ingress-1.40.0_modified.tgz is downloaded from https://kubernetes-charts.storage.googleapis.com/nginx-ingress-1.40.0.tgz
+but with the following changes:
+- added clusterrole2.yaml
+- deleted clusterrolebinding.yaml
