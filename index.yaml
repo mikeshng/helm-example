@@ -3,12 +3,160 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-25T09:59:55.940195762-04:00"
+    created: "2021-02-01T09:51:03.395079126-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 01937409beb0356774a52bf9905551ab375118becade1506187e551c7b7127ff
+    name: my-app
+    type: application
+    urls:
+    - https://mikeshng.github.io/helm-example/my-app-0.1.0-nosvc.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-01T09:51:03.395448842-05:00"
+    description: A Helm chart for Kubernetes
+    digest: c0fc92efc8c2f6f1aa1df9da454b1c71b7ccb674a7ac2659ba75cd785a8761e6
+    name: my-app
+    type: application
+    urls:
+    - https://mikeshng.github.io/helm-example/my-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-01T09:51:03.410243773-05:00"
+    description: A Helm chart for Kubernetes
+    digest: f6107bda7ca1b7b02f25e0506dfcff9a44d30944978a7638bf46842008be95cb
+    name: my-app
+    type: application
+    urls:
+    - https://mikeshng.github.io/helm-example/full/my-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-01T09:51:03.410801411-05:00"
     description: A Helm chart for Kubernetes
     digest: 6a4a222dc1c26003d9dc9018009830f20c811be377e90d907640f5f0f180bf03
     name: my-app
     type: application
     urls:
-    - https://mikeshng.github.io/helm-example/my-app-0.1.0.tgz
-    version: 0.1.7
-generated: "2020-08-25T09:59:55.935940929-04:00"
+    - https://mikeshng.github.io/helm-example/relative/my-app-0.1.0.tgz
+    version: 0.1.0
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 0.32.0
+    created: "2021-02-01T09:51:03.402169629-05:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx configuration.
+    digest: 9713ee0b7e6c43eb778f877b0e56f8d971df8b1343ed665987e8f43029a50673
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://mikeshng.github.io/helm-example/nginx-ingress-1.40.0_keep.tgz
+    version: 1.40.0
+  - apiVersion: v1
+    appVersion: 0.32.0
+    created: "2021-02-01T09:51:03.40595642-05:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx configuration.
+    digest: 4cddbc1b6a05984df07f59feee3ec3a4f678e4a328062b596d8da5f28230327e
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://mikeshng.github.io/helm-example/nginx-ingress-1.40.0_modified.tgz
+    version: 1.40.0
+  - apiVersion: v1
+    appVersion: 0.30.0
+    created: "2021-02-01T09:51:03.409252124-05:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx configuration.
+    digest: 697b200ac37670c59349da82a70a892309d7c090ef6621cb84fc33ba8e6a0148
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://mikeshng.github.io/helm-example/nginx-ingress-sleep.tgz
+    version: 1.36.3
+  - apiVersion: v1
+    appVersion: 0.27.0
+    created: "2021-02-01T09:51:03.397460897-05:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx configuration.
+    digest: 88c6ebf40ebe6c11d557b3b8714ebbca2fc823fcdcf0823dcb5d339239990402
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://mikeshng.github.io/helm-example/nginx-ingress-1.29.0.tgz
+    version: 1.29.0
+  - apiVersion: v1
+    appVersion: 0.27.0
+    created: "2021-02-01T09:51:03.400096409-05:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx configuration.
+    digest: 83af69dcc13da6a5b4b1c90c0b1188804d3506f6cd476caf225529744fa65d2a
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://mikeshng.github.io/helm-example/nginx-ingress-1.29.0_crds.tgz
+    version: 1.29.0
+  parent-chart:
+  - apiVersion: v2
+    created: "2021-02-01T09:51:03.409671829-05:00"
+    dependencies:
+    - name: first-child
+      repository: ""
+    description: Parent Helm chart.
+    digest: f81d54cb5484739e91f9e41a3b1ba59bf7d32d563bfd3e6053a407124cb1785d
+    name: parent-chart
+    urls:
+    - https://mikeshng.github.io/helm-example/parent-chart-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-02-01T09:51:03.394589353-05:00"
